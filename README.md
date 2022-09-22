@@ -8,8 +8,8 @@
 #### 일정
 |  date | chapter |                     name                     | detail |
 |:-----:|:-------:|:--------------------------------------------:|:----:|
-|  9/20 |    0    |   O.T   | [link](https://github.com/pullingoff/wintercoffee/blob/main/week1.md) |
-|  9/28 |    1    |   1장       | [link]() |
+|  9/20 |    0    |   O.T : 도서 선정, 진행 방법 결정 | |
+|  9/28 |    1    |   1장 : 컴퓨터 구조를 알아야하는 이유, 큰 그림, 0과 1로 숫자를 표현하는 방법  | [link](https://github.com/pullingoff/wintercoffee/blob/main/week1.md) |
 
 ### 운영체제
 
