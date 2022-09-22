@@ -8,7 +8,7 @@
 #### 일정
 |  date | chapter |                     name                     | detail |
 |:-----:|:-------:|:--------------------------------------------:|:----:|
-|  9/20 |    0    |   O.T   | [link]() |
+|  9/20 |    0    |   O.T   | [link](https://github.com/pullingoff/wintercoffee/blob/main/week1.md) |
 |  9/28 |    1    |   1장       | [link]() |
 
 ### 운영체제
