@@ -14,7 +14,7 @@
 |  10/5 |   2, 3  |   0과 1로 문자를 표현하는 방법 / 소스 코드와 명령어, 명령어의 구조| [link](https://github.com/pullingoff/wintercoffee/blob/main/week2.md) |
 |  10/19| 4-1, 2  |   ALU와 제어장치, 레지스터   | [link](https://github.com/pullingoff/wintercoffee/blob/main/week3.md) |
 |  11/3 | 4-3 ~ 5-2|   명령어 사이클과 인터럽트, 빠른 CPU를 위한 설계 기법, 명령어 병렬 처리 기법 | [link](https://github.com/pullingoff/wintercoffee/blob/main/week4.md) | 
-|  11/9 | 5-3, 복습 | 추가 예정 | [link](https://github.com/pullingoff/wintercoffee/blob/main/week5.md) |
+|  11/9 | 5-3, 복습 | CISC와 RISC, 이전 단원들 복습 | [link](https://github.com/pullingoff/wintercoffee/blob/main/week5.md) |
 
 
 ### 운영체제
