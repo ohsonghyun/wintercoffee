@@ -4,8 +4,7 @@ js (하은)
 
 ```js
 function solution(t, p) {
-    var answer = 0;
-    
+    let answer = 0;
     const length = p.length;
     
     for(i=0; i<t.length-length+1; i++) {
