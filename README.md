@@ -15,9 +15,10 @@
 |3|  10/19| 4-1, 2  |   ALU와 제어장치, 레지스터   | [link](https://github.com/pullingoff/wintercoffee/blob/main/week3.md) |
 |4|  11/3 | 4-3 ~ 5-2|   명령어 사이클과 인터럽트, 빠른 CPU를 위한 설계 기법, 명령어 병렬 처리 기법 | [link](https://github.com/pullingoff/wintercoffee/blob/main/week4.md) | 
 |5|  11/9 | 5-3, 복습 | CISC와 RISC, 이전 단원들 복습 | [link](https://github.com/pullingoff/wintercoffee/blob/main/week5.md) |
-|6|  11/27 | 6 | 메모리와 캐시 | [link](https://github.com/pullingoff/wintercoffee/blob/main/week6.md) |
-
-
+|7|  11/27 | 6 | 메모리와 캐시 | [link](https://github.com/pullingoff/wintercoffee/blob/main/week6.md) |
+|8|  12/18 | 7 | 다양한 보조기억장치, RAID | - |
+|9|  12/26 | 8,9-1 | 입출력장치, 운영체제를 알아야하는 이유 | - |
+|10|  1/2 | 9-2, 10-1,2 | 운영체제 시작하기,  | - |
 
 ### 운영체제
 
