@@ -33,3 +33,23 @@ function solution(s) {
     return answer;
 }
 ```
+
+[과일 장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808)
+
+```js
+
+// 처음에 이렇게 문제를 풀었으나 약 4가지 케이스에서 시간 초과로 통과하지 못했다.
+
+function solution(k, m, score) {
+    var answer = 0;
+    score.sort((a,b) => b-a)
+    
+    while (score.length >= m) {  
+        answer += (score[m-1] * m)
+        for(let i=0; i < m; i++) {
+            score.shift()
+        }
+    }
+    return answer;
+}
+```
