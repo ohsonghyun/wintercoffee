@@ -92,17 +92,7 @@ class Solution {
 ```
 
 
-[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)
-```kotlin
-class Solution {
-    fun solution(arr: IntArray): Double {
-
-
-  return arr.sumOf { it.toDouble() }.div(arr.size)
-    }
-}
-```
-
+[하샤드 수](https://school.programmers.co.kr/learn/courses/30/lessons/12947)
 
 
 ```kotlin
