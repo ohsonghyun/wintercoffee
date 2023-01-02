@@ -64,16 +64,13 @@ class Solution {
     fun solution(t: String, p: String): Int {
     var param = t
 
-
     val array = mutableListOf<String>()
 
-    // 규칙을 계산해보면 t.length -p.length  + 1 이라는것을 알수 있다.
+    // 규칙을 계산해보면 t.length -p.length + 1 이라는것을 알수 있다.
     repeat(t.length - p.length + 1) {
         array.add(param.substring(p.indices))
         param = param.drop(1)
     }
-
-
 
     return array.filter { it <= p }.size
     }
@@ -85,8 +82,7 @@ class Solution {
 class Solution {
     fun solution(arr: IntArray): Double {
 
-
-  return arr.sumOf { it.toDouble() }.div(arr.size)
+    return arr.sumOf { it.toDouble() }.div(arr.size)
     }
 }
 ```
@@ -99,5 +95,4 @@ class Solution {
 	val param = x.toString().map { Character.getNumericValue(it) }.sum()
 
 	return x % param == 0
-
 ```
