@@ -39,6 +39,7 @@ function solution(s) {
 ```js
 
 // 처음에 이렇게 문제를 풀었으나 약 4가지 케이스에서 시간 초과로 통과하지 못했다.
+// for로 원본 배열을 훼손하지 않고 풀어야 한다.
 
 function solution(k, m, score) {
     var answer = 0;
