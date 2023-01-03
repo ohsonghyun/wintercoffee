@@ -1,8 +1,7 @@
 [크기가 작은 부분문자열](https://school.programmers.co.kr/learn/courses/30/lessons/147355)
 
-**js (하은)**
-
 ```js
+// js (하은)
 function solution(t, p) {
     let answer = 0;
     const length = p.length;
@@ -16,9 +15,30 @@ function solution(t, p) {
 }
 ```
 
+```kotlin
+// kotlin (우성)
+class Solution {
+    fun solution(t: String, p: String): Int {
+    var param = t
+
+    val array = mutableListOf<String>()
+
+    // 규칙을 계산해보면 t.length -p.length + 1 이라는것을 알수 있다.
+    repeat(t.length - p.length + 1) {
+        array.add(param.substring(p.indices))
+        param = param.drop(1)
+    }
+
+    return array.filter { it <= p }.size
+    }
+}
+```
+-------
+
 [가장 가까운 같은 글자](https://school.programmers.co.kr/learn/courses/30/lessons/142086)
 
 ```js
+// js (하은)
 function solution(s) {
     var answer = [];
     
@@ -37,7 +57,7 @@ function solution(s) {
 [과일 장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808)
 
 ```js
-
+// js (하은)
 // 처음에 이렇게 문제를 풀었으나 약 4가지 케이스에서 시간 초과로 통과하지 못했다.
 // for로 원본 배열을 훼손하지 않고 풀어야 한다.
 
@@ -55,30 +75,9 @@ function solution(k, m, score) {
 }
 ```
 
-[크기가 작은 부분문자열](https://school.programmers.co.kr/learn/courses/30/lessons/147355)
-
-**kotlin (우성)**
-
-```kotlin
-class Solution {
-    fun solution(t: String, p: String): Int {
-    var param = t
-
-    val array = mutableListOf<String>()
-
-    // 규칙을 계산해보면 t.length -p.length + 1 이라는것을 알수 있다.
-    repeat(t.length - p.length + 1) {
-        array.add(param.substring(p.indices))
-        param = param.drop(1)
-    }
-
-    return array.filter { it <= p }.size
-    }
-}
-```
-
 [평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)
 ```kotlin
+// kotlin (우성)
 class Solution {
     fun solution(arr: IntArray): Double {
 
@@ -92,6 +91,7 @@ class Solution {
 
 
 ```kotlin
+// kotlin (우성)
 	val param = x.toString().map { Character.getNumericValue(it) }.sum()
 
 	return x % param == 0
