@@ -76,12 +76,19 @@ function solution(k, m, score) {
 ```
 
 ## [평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)
+
+```js
+// js (하은)
+function solution(arr) {
+    return (arr.reduce((acc, cur) => acc + cur)/arr.length) || 0;
+}
+```
+
 ```kotlin
 // kotlin (우성)
 class Solution {
     fun solution(arr: IntArray): Double {
-
-    return arr.sumOf { it.toDouble() }.div(arr.size)
+    	return arr.sumOf { it.toDouble() }.div(arr.size)
     }
 }
 ```
