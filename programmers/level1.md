@@ -53,7 +53,7 @@ function solution(s) {
     return answer;
 }
 ```
-
+-------
 [과일 장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808)
 
 ```js
@@ -74,7 +74,7 @@ function solution(k, m, score) {
     return answer;
 }
 ```
-
+-------
 [평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)
 ```kotlin
 // kotlin (우성)
@@ -86,7 +86,7 @@ class Solution {
 }
 ```
 
-
+-------
 [하샤드 수](https://school.programmers.co.kr/learn/courses/30/lessons/12947)
 
 
