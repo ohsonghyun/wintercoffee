@@ -1,4 +1,4 @@
-[크기가 작은 부분문자열](https://school.programmers.co.kr/learn/courses/30/lessons/147355)
+## [크기가 작은 부분문자열](https://school.programmers.co.kr/learn/courses/30/lessons/147355)
 
 ```js
 // js (하은)
@@ -33,9 +33,9 @@ class Solution {
     }
 }
 ```
--------
 
-[가장 가까운 같은 글자](https://school.programmers.co.kr/learn/courses/30/lessons/142086)
+
+## [가장 가까운 같은 글자](https://school.programmers.co.kr/learn/courses/30/lessons/142086)
 
 ```js
 // js (하은)
@@ -53,8 +53,8 @@ function solution(s) {
     return answer;
 }
 ```
--------
-[과일 장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808)
+
+## [과일 장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808)
 
 ```js
 // js (하은)
@@ -74,8 +74,8 @@ function solution(k, m, score) {
     return answer;
 }
 ```
--------
-[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)
+
+## [평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)
 ```kotlin
 // kotlin (우성)
 class Solution {
@@ -86,9 +86,8 @@ class Solution {
 }
 ```
 
--------
-[하샤드 수](https://school.programmers.co.kr/learn/courses/30/lessons/12947)
 
+## [하샤드 수](https://school.programmers.co.kr/learn/courses/30/lessons/12947)
 
 ```kotlin
 // kotlin (우성)
