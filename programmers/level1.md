@@ -34,6 +34,24 @@ class Solution {
 }
 ```
 
+```java
+// java (송현)
+class Solution {
+    public int solution(String t, String p) {
+        int answer = 0;
+        int tLen = t.length();
+        int pLen = p.length();
+        Long pFormatLong = Long.parseLong(p);
+        
+        for(int i = 0; i < tLen - pLen + 1; i++) { 
+            answer += Long.parseLong(t.substring(i, i + pLen)) <= pFormatLong ? 1 : 0;
+        }
+        
+        return answer;
+    }
+}
+```
+
 
 ## [가장 가까운 같은 글자](https://school.programmers.co.kr/learn/courses/30/lessons/142086)
 
@@ -52,6 +70,38 @@ function solution(s) {
     }
     return answer;
 }
+```
+
+```java
+// java (송현)
+class Solution {
+    public int[] solution(String s) {
+        int[] answer = new int[s.length()];
+        answer[0] = -1;
+        
+        for(int i = 0; i < s.length(); i++) {
+            char point = s.charAt(i);
+            int count = 0;
+            
+            for(int j = i - 1; j >= 0; j--) {
+                count++;
+                if(point == s.charAt(j)) {
+                    answer[i] = count;
+                    break;
+                }else {
+                    answer[i] = -1;
+                }
+            }
+        }
+        return answer;
+    }
+}
+```
+
+## [명예의 전당(1)](https://school.programmers.co.kr/learn/courses/30/lessons/138477)
+```java
+// java (송현)
+// working on it...
 ```
 
 ## [과일 장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808)
