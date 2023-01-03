@@ -143,6 +143,20 @@ class Solution {
 }
 ```
 
+```java
+// java (송현)
+class Solution {
+    public double solution(int[] arr) {
+        double answer = 0;
+        for(int num : arr) {
+            answer += num;
+        }
+        answer /= arr.length;
+        return answer;
+    }
+}
+```
+
 
 ## [하샤드 수](https://school.programmers.co.kr/learn/courses/30/lessons/12947)
 
